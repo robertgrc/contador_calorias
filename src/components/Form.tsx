@@ -10,7 +10,7 @@ export default function Form() {
     calories: 0
  })
 
- const handleChange = (e)=>{
+ const handleChange = (e:React.ChangeEvent<HTMLSelectElement>| React.ChangeEvent<HTMLInputElement>)=>{
     console.log(e.target.id)
     console.log(e.target.value)
 
