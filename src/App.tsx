@@ -23,7 +23,7 @@ function App() {
           />
         </div>
       </section>
-      <section className="bg-lime-400 py-20 px-5">
+      <section className="bg-lime-100 py-20 px-5">
         <ActivityList 
           activities = {state.activities}
         />
