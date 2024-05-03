@@ -20,12 +20,14 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <Form 
             dispatch={dispatch}
+            state={state}
           />
         </div>
       </section>
       <section className="bg-lime-100 py-20 px-5">
         <ActivityList 
           activities = {state.activities}
+          dispatch = {dispatch}
         />
       </section>
     </>
